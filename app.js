@@ -13,7 +13,7 @@ var PersonalityInsightsV3 = require('watson-developer-cloud/personality-insights
 var appEnv = cfenv.getAppEnv();
 
 // get the bounded Bluemix service credentials
-var watsonService = appEnv.getService("MyPersonalityInsights");
+var watsonService = appEnv.getService("personality-insights-tutorial");
 var username = watsonService.credentials.username;
 var password = watsonService.credentials.password;
 
