@@ -9,9 +9,9 @@ See what Watson has to say about you!
 		1. Direct Links: 
 	[Mac](https://cli.run.pivotal.io/stable?release=macosx64&source=github) [Windows](https://cli.run.pivotal.io/stable?release=windows64&source=github)
 	1. Open your terminal and `cd` to the root of your local repository's directory (Where app.js is)
+	1. Run the following commands:
+
 	```
-	Run the following commands:
-	
 	# Set Bluemix as your Cloud Foundry CLI target
 	$ cf api api.ng.bluemix.net  
 	
