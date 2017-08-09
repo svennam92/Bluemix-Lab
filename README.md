@@ -13,7 +13,7 @@ See what Watson has to say about you!
 			1. if `cf login` fails try using `cf login -sso` and use the link given to get a temp password
 		1. cf will ask you to target an org and space
 	1. Create the Personality Insights service in Bluemix
-	`$ cf create-service personality_insights lite personality-insights-tutorial`
+	`cf create-service personality_insights lite personality-insights-tutorial`
 	1. `cf push`
 	You've just deployed your application! The manifest.yml will take care of all the extra options. When your app is done the url will show in the logs
 
