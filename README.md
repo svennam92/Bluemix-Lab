@@ -11,11 +11,18 @@ See what Watson has to say about you!
 	1. Open your terminal and `cd` to the root of your local repository's directory (Where app.js is)
 	```
 	Run the following commands:
-	$ cf api api.ng.bluemix.net  # Set Bluemix as your Cloud Foundry CLI target
-	$ cf login                   # Use your Bluemix credentials to login and target an org/space
+	
+	# Set Bluemix as your Cloud Foundry CLI target
+	$ cf api api.ng.bluemix.net  
+	
+	# Use your Bluemix credentials to login and target an org/space
+	$ cf login                   
+	
+	# Create your Watson Personality Insights service
 	$ cf create-service personality_insights lite personality-insights-tutorial
-		                     # Create your Watson Personality Insights service
-	$ cf push                    # Push your application to Bluemix
+		                     
+	# Push your application to Bluemix
+	$ cf push                    
 	```	
 
 You've just deployed your application! The manifest.yml will take care of all the extra options. When your app is done the url will show in the logs
