@@ -11,7 +11,7 @@ See what Watson has to say about you!
 		1. `cf api api.ng.bluemix.net`
 		1. `cf login` (Use your Bluemix credentials)
 			1. if `cf login` fails try using `cf login -sso` and use the link given to get a temp password
-		1. cf will ask you to target an org and space. Select the org and space you created the watson service in
+		1. cf will ask you to target an org and space
 	1. Create the Personality Insights service in Bluemix
 	`$ cf create-service personality_insights lite personality-insights-tutorial`
 	1. `cf push`
