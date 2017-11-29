@@ -16,7 +16,7 @@ See what Watson has to say about you!
 	$ cf api api.ng.bluemix.net  
 	
 	# Use your Bluemix credentials to login and target an org/space
-	$ cf login                   
+	$ cf login --sso                
 	
 	# Create your Watson Personality Insights service
 	$ cf create-service personality_insights lite personality-insights-tutorial
